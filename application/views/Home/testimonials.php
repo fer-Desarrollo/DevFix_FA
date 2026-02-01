@@ -147,7 +147,7 @@
                         <p>"Nuestro sitio web con sistema de reservas ha incrementado nuestras ventas en un 40%. Excelente trabajo y atención personalizada."</p>
                     </div>
                     <div class="card-footer">
-                        <span class="date">Mayo 2023</span>
+                        <span class="date">Mayo 2025</span>
                     </div>
                 </div>
 
@@ -173,7 +173,7 @@
                         <p>"El soporte técnico para nuestros 50 equipos ha sido impecable. Respuesta rápida y soluciones efectivas. Los recomendamos 100%."</p>
                     </div>
                     <div class="card-footer">
-                        <span class="date">Marzo 2023</span>
+                        <span class="date">Marzo 2025</span>
                     </div>
                 </div>
 
@@ -199,7 +199,7 @@
                         <p>"Nuestra tienda online funciona perfectamente. El equipo de DEVFIX fue muy profesional y entendió exactamente lo que necesitábamos."</p>
                     </div>
                     <div class="card-footer">
-                        <span class="date">Enero 2023</span>
+                        <span class="date">Enero 2025</span>
                     </div>
                 </div>
 
@@ -225,7 +225,7 @@
                         <p>"Implementaron nuestro laboratorio de cómputo y la red escolar. Todo funciona perfectamente y los profesores están muy contentos."</p>
                     </div>
                     <div class="card-footer">
-                        <span class="date">Noviembre 2022</span>
+                        <span class="date">Noviembre 2025</span>
                     </div>
                 </div>
             </div>
@@ -255,7 +255,7 @@
                     </div>
                     
                     <div class="stat-item">
-                        <h3>150+</h3>
+                        <h3>10+</h3>
                         <p>Testimonios verificados</p>
                     </div>
                 </div>
@@ -269,67 +269,7 @@
     </section>
 
     <!-- Formulario de testimonio -->
-    <section class="add-testimonial">
-        <div class="container">
-            <div class="add-testimonial-content">
-                <h2>Comparte tu experiencia</h2>
-                <p>Si has trabajado con nosotros, nos encantaría conocer tu opinión</p>
-                
-                <form class="testimonial-form" id="testimonialForm">
-                    <div class="form-row">
-                        <div class="form-group">
-                            <input type="text" placeholder="Nombre completo" required>
-                        </div>
-                        <div class="form-group">
-                            <input type="text" placeholder="Empresa o cargo" required>
-                        </div>
-                    </div>
-                    
-                    <div class="form-row">
-                        <div class="form-group">
-                            <input type="email" placeholder="Correo electrónico" required>
-                        </div>
-                        <div class="form-group">
-                            <select required>
-                                <option value="">Servicio contratado</option>
-                                <option value="web">Desarrollo Web</option>
-                                <option value="sistemas">Sistemas a Medida</option>
-                                <option value="soporte">Soporte Técnico</option>
-                                <option value="redes">Redes y Servidores</option>
-                            </select>
-                        </div>
-                    </div>
-                    
-                    <div class="form-group">
-                        <div class="rating-input">
-                            <span>Calificación:</span>
-                            <div class="stars-input">
-                                <i class="far fa-star" data-rating="1"></i>
-                                <i class="far fa-star" data-rating="2"></i>
-                                <i class="far fa-star" data-rating="3"></i>
-                                <i class="far fa-star" data-rating="4"></i>
-                                <i class="far fa-star" data-rating="5"></i>
-                                <input type="hidden" id="ratingValue" name="rating" value="0">
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="form-group">
-                        <textarea placeholder="Comparte tu experiencia con DEVFIX..." rows="5" required></textarea>
-                    </div>
-                    
-                    <div class="form-group">
-                        <label class="checkbox-label">
-                            <input type="checkbox" required>
-                            <span>Acepto que mi testimonio sea publicado en el sitio web</span>
-                        </label>
-                    </div>
-                    
-                    <button type="submit" class="btn-primary">Enviar testimonio</button>
-                </form>
-            </div>
-        </div>
-    </section>
+
 </main>
 
 <?php $this->load->view('home/footer'); ?>

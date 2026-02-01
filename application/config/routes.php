@@ -56,6 +56,8 @@ $route['portafolio'] = 'home/portafolio';
 $route['testimonios'] = 'home/testimonios';
 $route['tecnologias'] = 'home/tecnologias';
 $route['contacto'] = 'home/contacto';
+$route['contacto/enviar'] = 'contacto/enviar';
+
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
 
