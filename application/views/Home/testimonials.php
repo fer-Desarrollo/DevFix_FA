@@ -147,7 +147,7 @@
                         <p>"Nuestro sitio web con sistema de reservas ha incrementado nuestras ventas en un 40%. Excelente trabajo y atención personalizada."</p>
                     </div>
                     <div class="card-footer">
-                        <span class="date">Mayo 2023</span>
+                        <span class="date">Mayo 2025</span>
                     </div>
                 </div>
 
@@ -173,7 +173,7 @@
                         <p>"El soporte técnico para nuestros 50 equipos ha sido impecable. Respuesta rápida y soluciones efectivas. Los recomendamos 100%."</p>
                     </div>
                     <div class="card-footer">
-                        <span class="date">Marzo 2023</span>
+                        <span class="date">Marzo 2025</span>
                     </div>
                 </div>
 
@@ -199,7 +199,7 @@
                         <p>"Nuestra tienda online funciona perfectamente. El equipo de DEVFIX fue muy profesional y entendió exactamente lo que necesitábamos."</p>
                     </div>
                     <div class="card-footer">
-                        <span class="date">Enero 2023</span>
+                        <span class="date">Enero 2025</span>
                     </div>
                 </div>
 
@@ -225,7 +225,7 @@
                         <p>"Implementaron nuestro laboratorio de cómputo y la red escolar. Todo funciona perfectamente y los profesores están muy contentos."</p>
                     </div>
                     <div class="card-footer">
-                        <span class="date">Noviembre 2022</span>
+                        <span class="date">Noviembre 2025</span>
                     </div>
                 </div>
             </div>
@@ -255,7 +255,7 @@
                     </div>
                     
                     <div class="stat-item">
-                        <h3>150+</h3>
+                        <h3>10+</h3>
                         <p>Testimonios verificados</p>
                     </div>
                 </div>

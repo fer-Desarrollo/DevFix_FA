@@ -6,7 +6,7 @@
         <div class="container">
             <div class="about-header">
                 <h1>Acerca de DEVFIX</h1>
-                <p>Más de 10 años transformando negocios con soluciones tecnológicas de vanguardia</p>
+                <p>Más de 2 años transformando negocios con soluciones tecnológicas</p>
             </div>
         </div>
     </section>
@@ -21,18 +21,18 @@
             
             <div class="timeline">
                 <div class="timeline-item">
-                    <div class="timeline-year">2013</div>
+                    <div class="timeline-year">2024</div>
                     <div class="timeline-content">
                         <h3>Fundación</h3>
-                        <p>DEVFIX nace como un pequeño equipo de 3 profesionales apasionados por la tecnología, ofreciendo soporte técnico básico a empresas locales.</p>
+                        <p>DEVFIX nace como un pequeño equipo de 2 profesionales apasionados por la tecnología, ofreciendo soporte técnico básico.</p>
                     </div>
                 </div>
                 
                 <div class="timeline-item">
-                    <div class="timeline-year">2015</div>
+                    <div class="timeline-year">2025</div>
                     <div class="timeline-content">
                         <h3>Primera expansión</h3>
-                        <p>Incorporamos servicios de desarrollo web y duplicamos nuestro equipo. Atendemos nuestro primer proyecto corporativo importante.</p>
+                        <p>Incorporamos servicios de desarrollo web.</p>
                     </div>
                 </div>
                 
@@ -45,18 +45,18 @@
                 </div>
                 
                 <div class="timeline-item">
-                    <div class="timeline-year">2021</div>
+                    <div class="timeline-year">2025</div>
                     <div class="timeline-content">
                         <h3>Transformación digital</h3>
-                        <p>Lanzamos nuestra división de transformación digital, ayudando a empresas a migrar a la nube y adoptar tecnologías modernas.</p>
+                        <p>Lanzamos nuestra división de transformación digital.</p>
                     </div>
                 </div>
                 
                 <div class="timeline-item">
-                    <div class="timeline-year">2023</div>
+                    <div class="timeline-year">2025</div>
                     <div class="timeline-content">
                         <h3>Presente y futuro</h3>
-                        <p>Equipo de 25+ profesionales, más de 250 clientes satisfechos y expansión a soluciones de inteligencia artificial y automatización.</p>
+                        <p>Equipo de 2 profesionales, más de 10 clientes satisfechos.</p>
                     </div>
                 </div>
             </div>
@@ -111,12 +111,12 @@
             <div class="team-grid">
                 <div class="team-card">
                     <div class="team-photo">
-                        <img src="<?= base_url('assets/images/team/ceo.jpg') ?>" alt="CEO">
+                        <img src="<?= base_url('assets/images/team/ceo.png') ?>" alt="CEO">
                     </div>
                     <div class="team-info">
-                        <h3>Carlos Mendoza</h3>
+                        <h3>Ing. Fernando García T.</h3>
                         <p class="team-position">CEO & Fundador</p>
-                        <p class="team-bio">Más de 15 años en TI. Ingeniero en Sistemas con maestría en Tecnologías de la Información.</p>
+                        <p class="team-bio">Maestro en reparación de equipos y experto en Desarrollo Web y móvil.</p>
                         <div class="team-social">
                             <a href="#"><i class="fab fa-linkedin"></i></a>
                             <a href="#"><i class="fab fa-twitter"></i></a>
@@ -126,12 +126,12 @@
                 
                 <div class="team-card">
                     <div class="team-photo">
-                        <img src="<?= base_url('assets/images/team/cto.jpg') ?>" alt="CTO">
+                        <img src="<?= base_url('assets/images/team/cto.png') ?>" alt="CTO">
                     </div>
                     <div class="team-info">
-                        <h3>Ana Rodríguez</h3>
-                        <p class="team-position">CTO</p>
-                        <p class="team-bio">Especialista en arquitectura de sistemas y seguridad informática. Certificaciones AWS y Cisco.</p>
+                        <h3>Ing. Adriana Gonzalez S.</h3>
+                        <p class="team-position">Lead Developer</p>
+                        <p class="team-bio">Especialista en Android Studio y Desarrollo Web.</p>
                         <div class="team-social">
                             <a href="#"><i class="fab fa-linkedin"></i></a>
                             <a href="#"><i class="fab fa-github"></i></a>
@@ -139,35 +139,9 @@
                     </div>
                 </div>
                 
-                <div class="team-card">
-                    <div class="team-photo">
-                        <img src="<?= base_url('assets/images/team/development.jpg') ?>" alt="Desarrollo">
-                    </div>
-                    <div class="team-info">
-                        <h3>Miguel Torres</h3>
-                        <p class="team-position">Director de Desarrollo</p>
-                        <p class="team-bio">Experto en desarrollo de software empresarial. Especializado en Laravel y Vue.js.</p>
-                        <div class="team-social">
-                            <a href="#"><i class="fab fa-linkedin"></i></a>
-                            <a href="#"><i class="fab fa-stack-overflow"></i></a>
-                        </div>
-                    </div>
-                </div>
                 
-                <div class="team-card">
-                    <div class="team-photo">
-                        <img src="<?= base_url('assets/images/team/support.jpg') ?>" alt="Soporte">
-                    </div>
-                    <div class="team-info">
-                        <h3>Laura Sánchez</h3>
-                        <p class="team-position">Gerente de Soporte</p>
-                        <p class="team-bio">10 años en soporte técnico empresarial. Certificaciones Microsoft y CompTIA.</p>
-                        <div class="team-social">
-                            <a href="#"><i class="fab fa-linkedin"></i></a>
-                            <a href="#"><i class="fab fa-whatsapp"></i></a>
-                        </div>
-                    </div>
-                </div>
+                
+                
             </div>
         </div>
     </section>
@@ -217,55 +191,14 @@
     </section>
 
     <!-- Logros -->
-    <section class="achievements">
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title">Logros y Reconocimientos</h2>
-                <p class="section-subtitle">El esfuerzo y la excelencia tienen su recompensa</p>
-            </div>
-            
-            <div class="achievements-grid">
-                <div class="achievement-card">
-                    <div class="achievement-icon">
-                        <i class="fas fa-award"></i>
-                    </div>
-                    <h3>Premio a la Innovación Tecnológica 2022</h3>
-                    <p>Reconocidos por nuestra solución de transformación digital para PYMES.</p>
-                </div>
-                
-                <div class="achievement-card">
-                    <div class="achievement-icon">
-                        <i class="fas fa-certificate"></i>
-                    </div>
-                    <h3>Microsoft Gold Partner</h3>
-                    <p>Certificados como socio Gold en soluciones empresariales Microsoft.</p>
-                </div>
-                
-                <div class="achievement-card">
-                    <div class="achievement-icon">
-                        <i class="fas fa-trophy"></i>
-                    </div>
-                    <h3>Mejor Servicio al Cliente 2023</h3>
-                    <p>Votados por nuestros clientes como la empresa con mejor servicio post-venta.</p>
-                </div>
-                
-                <div class="achievement-card">
-                    <div class="achievement-icon">
-                        <i class="fas fa-star"></i>
-                    </div>
-                    <h3>4.9/5 en Google Reviews</h3>
-                    <p>Calificación promedio basada en más de 150 reseñas verificadas.</p>
-                </div>
-            </div>
-        </div>
-    </section>
+    
 
     <!-- CTA -->
     <section class="about-cta">
         <div class="container">
             <div class="cta-content">
                 <h2>¿Listo para trabajar con nosotros?</h2>
-                <p>Únete a las más de 250 empresas que ya confían en DEVFIX para sus soluciones tecnológicas.</p>
+                <p>Únete a las más de 10 clietes que ya confían en DEVFIX para sus soluciones tecnológicas.</p>
                 <div class="cta-buttons">
                     <a href="#contacto" class="btn-primary btn-large">Contáctanos</a>
                     <a href="<?= base_url('portafolio') ?>" class="btn-secondary btn-large">Ver nuestros trabajos</a>

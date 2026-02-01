@@ -145,7 +145,7 @@
                     </div>
                     <div class="project-info">
                         <h3>Soporte IT - Clínica Dental</h3>
-                        <p>Mantenimiento preventivo y correctivo de 50 equipos, backup y seguridad.</p>
+                        <p>Mantenimiento preventivo y correctivo de equipos, backup y seguridad.</p>
                         <div class="project-tags">
                             <span class="tag">Windows</span>
                             <span class="tag">Backup</span>

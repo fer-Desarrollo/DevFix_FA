@@ -375,48 +375,7 @@
     </section>
 
     <!-- Certificaciones -->
-    <section class="certifications">
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title">Certificaciones y Partnerships</h2>
-                <p class="section-subtitle">Estamos certificados en las principales tecnologías del mercado</p>
-            </div>
-            
-            <div class="certifications-grid">
-                <div class="certification-card">
-                    <div class="certification-logo">
-                        <img src="<?= base_url('assets/images/certifications/microsoft.png') ?>" alt="Microsoft Partner">
-                    </div>
-                    <h3>Microsoft Partner</h3>
-                    <p>Certificados en soluciones Microsoft para empresas</p>
-                </div>
-                
-                <div class="certification-card">
-                    <div class="certification-logo">
-                        <img src="<?= base_url('assets/images/certifications/aws.png') ?>" alt="AWS Partner">
-                    </div>
-                    <h3>AWS Partner</h3>
-                    <p>Especialistas en infraestructura cloud de Amazon Web Services</p>
-                </div>
-                
-                <div class="certification-card">
-                    <div class="certification-logo">
-                        <img src="<?= base_url('assets/images/certifications/cisco.png') ?>" alt="Cisco Certified">
-                    </div>
-                    <h3>Cisco Certified</h3>
-                    <p>Certificaciones en redes y comunicaciones empresariales</p>
-                </div>
-                
-                <div class="certification-card">
-                    <div class="certification-logo">
-                        <img src="<?= base_url('assets/images/certifications/comptia.png') ?>" alt="CompTIA">
-                    </div>
-                    <h3>CompTIA Security+</h3>
-                    <p>Certificación en seguridad de la información</p>
-                </div>
-            </div>
-        </div>
-    </section>
+    
 </main>
 
 <?php $this->load->view('home/footer'); ?>
