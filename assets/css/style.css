@@ -2238,3 +2238,51 @@ section {
     color: #666;
     margin-bottom: 30px;
 }
+
+/* === MODAL LOGIN FIX DEFINITIVO === */
+.modal-login {
+    display: none !important;
+    position: fixed !important;
+    top: 0;
+    left: 0;
+    width: 100vw !important;
+    height: 100vh !important;
+    background: rgba(0,0,0,0.6) !important;
+    z-index: 999999 !important;
+
+    /* CENTRADO REAL */
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+.modal-content {
+    background: #fff !important;
+    padding: 30px !important;
+    width: 100% !important;
+    max-width: 400px !important;
+    border-radius: 10px !important;
+    box-shadow: 0 15px 40px rgba(0,0,0,.3) !important;
+    position: relative !important;
+}
+
+/* CERRAR */
+.close-modal {
+    position: absolute !important;
+    top: 10px !important;
+    right: 15px !important;
+    font-size: 22px !important;
+    cursor: pointer !important;
+}
+
+/* INPUTS */
+.modal-content input {
+    width: 100% !important;
+    padding: 10px !important;
+    margin-bottom: 15px !important;
+}
+
+/* BOTÓN */
+.modal-content button {
+    width: 100% !important;
+}

@@ -32,10 +32,11 @@
                 </div>
                 
                 <div class="header-contact">                    
-                    <a href="#cotizar" class="btn-primary btn-quote">
+                    <a href="javascript:void(0)" class="btn-primary btn-quote" id="openLoginModal">
                         <i class="fas fa-paper-plane"></i>
                         Solicitar cotización
                     </a>
+
                     
                     <div class="menu-toggle" id="menuToggle">
                         <i class="fas fa-bars"></i>
@@ -44,3 +45,48 @@
             </nav>
         </div>
     </header>
+
+
+    <div class="modal-login" id="loginModal">
+    <div class="modal-content">
+        <span class="close-modal" id="closeLoginModal">&times;</span>
+
+        <h3>Iniciar Sesión</h3>
+
+        <form method="post" action="<?= base_url('auth/login') ?>">
+            <div class="form-group">
+                <input type="email" name="correo" placeholder="Correo" required>
+            </div>
+
+            <div class="form-group">
+                <input type="password" name="password" placeholder="Contraseña" required>
+            </div>
+
+            <button type="submit" class="btn-primary">Ingresar</button>
+        </form>
+    </div>
+</div>
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+
+    const modal = document.getElementById('loginModal');
+
+    document.getElementById('openLoginModal').onclick = function () {
+        modal.style.display = 'flex';
+        document.body.style.overflow = 'hidden';
+    };
+
+    document.getElementById('closeLoginModal').onclick = function () {
+        modal.style.display = 'none';
+        document.body.style.overflow = 'auto';
+    };
+
+    modal.addEventListener('click', function (e) {
+        if (e.target === modal) {
+            modal.style.display = 'none';
+            document.body.style.overflow = 'auto';
+        }
+    });
+
+});
+</script>
